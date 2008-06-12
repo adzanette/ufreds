@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#Para discussões e questionamentos do trabalho.
 
 = Introduction =
 
@@ -7,7 +7,20 @@ Didi, dúvidas e questionamentos aki, pra gente poder fazer essa bagaça!!!
 
 = Details =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+Para usar o SvN:
+
+svn checkout https://ufreds.googlecode.com/svn/trunk/ ufreds --username <teu_user>
+
+ou cole diretamente o que está aki:
+
+http://code.google.com/p/ufreds/source/checkout
+
+a senha é automaticamente gerada e pode ser vista no link acima
+
+para adicionar arquivos:
+
+svn add localizacao do arquivo
+
+para enviar o trabalho feito:
+
+svn commit
